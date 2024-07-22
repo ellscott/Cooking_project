@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lora:wght@400&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+p,
+li,
+span {
+  font-family: "Lora", serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  height: 100vh;
+  width: 100vw;
+}
+
+.grid-item-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.grid-item-1 img {
+  width: 100%; /* Cover the full width of the grid cell */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+
+.image-text-1 {
+  position: absolute;
+  top: 20%;
+}
+
+.image-text-2 {
+  position: absolute;
+  top: 35%;
+}
+
+.image-text-3 {
+  position: absolute;
+  top: 55%;
+  font-size: 20px;
+}
+
+.grid-item-2 {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.food_card_1 {
+  z-index: 1;
+}
+
+.food_card_2 {
+  z-index: 2;
+}
+
+.food_card_3 {
+  z-index: 1;
+  top: 40%;
+}
+
+.container_2 {
+  color: black;
+  margin-left: 80px;
+}
+
+.grid-item-3 {
+  color: black;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+
+.icons {
+  margin-left: 100px;
+  width: 100px;
+  height: auto;
+}

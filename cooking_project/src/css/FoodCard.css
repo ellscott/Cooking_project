@@ -1,0 +1,10 @@
+.container img {
+  width: 250px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  object-fit: cover;
+  border-radius: 8%;
+}
+
+.container {
+  overflow: hidden;
+}
